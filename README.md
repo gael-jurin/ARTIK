@@ -12,4 +12,4 @@ Welcome to the ARTIK Team's submission for the O'Reilly Kata Challenge. We are e
 - Rezqallah HOUMMADI
 - Matteo FODERA
 
-SPVie Assurance
+**SPVIE Technology - Group SPVIE Assurances**
