@@ -2,7 +2,7 @@
 
 ## Identified Key Architectural Characteristics
 
-The [key architectural characteristics](../1.ProblemOverview/2.ConsiderationsAndDataCriticality.md) that were identified help us to select and overall architecture style. The top four are shown in bold and with a ^.
+The [key considerations and characteristics](../1.ProblemOverview/2.ConsiderationsAndDataCriticality.md) that were identified help us to select and overall architecture style. The top four are shown in bold and with a ^.
 
 - **Cost ^**
 - **Data Integrity ^**
@@ -14,7 +14,7 @@ The [key architectural characteristics](../1.ProblemOverview/2.ConsiderationsAnd
 
 ## Architecture Capabilities Comparison
 
-The above characteristics are highlighted below in green, with data integrity, above, not included in the matrix below. Data integrity will be a key architecture characteristic of the [data store selected](DataStore.md), along with the interface to this data store.
+The above characteristics are highlighted below in green, with data integrity, above, not included in the matrix below. Data integrity will be a key architecture characteristic of the datastores, along with the interface to those data store.
 
 ![architectural-styles](./images/architecture-styles-worksheet.png)
 
@@ -38,7 +38,7 @@ The above matrix gives us two candidates for our architecture, which need furthe
 
 | Pros                                                         | Cons                                                         | Mitigations                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Scores highly on domain partitioning, very important for loose coupled solution. | Scores low on performance, which would be a big trade-off for a elastic monitoring system. | Cost is a concern, scoring low, but the capacity of the system is already fixed. The scalability of the system is controlled by defined limits.
+| Scores highly on domain partitioning, very important for evolvability of the solution. | Scores low on performance, which would be a big trade-off for a elastic monitoring system. | Cost is a concern, scoring low, but the capacity of the system is already fixed. The scalability of the system is controlled by defined limits.
 | Scores highly on fault-tolerance, important to make sure the patient monitoring is not disrupted by a faulty device. | Middling score on interoperability/integration, important because of integration with Mobile App and other systems. | The middling interoperability ability can be mitigated by using an interface for integration with other systems. 
 |                                                         | Requires that the database be split along with each microservice. This would be another important trade-off. |                                                             |
 

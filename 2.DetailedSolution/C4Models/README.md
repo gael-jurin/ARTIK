@@ -17,7 +17,7 @@ This diagram shows how the main users of MonitorMe interact with the system, and
 
 ## Container Diagram
 
-A Container diagram zooms into the software system in scope, showing the high-level technical building blocks. The following diagram breaks down the MonitorMe systems into functionalities, and shows how they interact with each other and how the users of the system interact with the functionality.
+A Container diagram zooms into the software system in scope, showing the high-level technical building blocks. The following diagram breaks down the MonitorMe system into sub-systems and functionalities, and shows how they interact with each other and how the users of the system interact with the functionality.
 
 ![Container Diagram](../images/C4-system-container.png)
 
@@ -31,9 +31,15 @@ The following diagrams break down the containers/functionality shown above furth
 - [000 Combine Architecture patterns for monitoring devices (Sensor Unit) deployement and loose coupled business services](../../3.ARDs/000.Combine2ArchitecturePatterns.md)
 - [004 Database types (metrics storage as TSDB / config storage as RDBS)](../../3.ARDs/004.DataStorageandRetrievalADR.md)
 
+### Fault tolerant monitoring
+
+The following diagram shows the individually units for the patient global monitoring activity, and interactions with other systems.
+
+![Fault Tolerant System Containers](../images/C4-system-metrics-fault-tolerant.png)
+
 ### Alert Processing
 
-The following diagram shows the individually deployable services in the Alert processing domain
+The following diagram shows the individually deployable services in the Alert processing domain and interaction with other components or Users.
 
 ![Component Diagram Alert](../images/C4-system-component-alert-processor.png)
 
@@ -44,7 +50,7 @@ The following diagram shows the individually deployable services in the Alert pr
 
 ### Metrics query and visualization
 
-The following diagram shows the individually deployable services in the metrics query domain
+The following diagram shows the individually deployable services in the metrics query domain and interaction with other components or Users.
 
 ![Component Diagram Metrics](../images/C4-system-component-query-viz.png)
 
