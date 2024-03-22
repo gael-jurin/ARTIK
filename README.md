@@ -27,5 +27,6 @@ And, For our first participation, we were granted an honorable Mention for addre
 - Andrew Harmel-Law (Bio - https://andrewharmellaw.github.io/)
 
 ##
-![image](https://github.com/gael-jurin/ARTIK/assets/878418/30ac1e5d-0351-4a87-9a2d-b03459feb921)
+![image](https://github.com/gael-jurin/ARTIK/assets/878418/cb04a5e5-265c-4b4d-8131-6b71b8f74997)
+
 
